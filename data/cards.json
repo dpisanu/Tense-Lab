@@ -1,0 +1,799 @@
+[
+  {
+    "sentence": "I play football every Saturday.",
+    "tense": "simple-present",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "My sister likes pizza.",
+    "tense": "simple-present",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We walk to school every day.",
+    "tense": "simple-present",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "My dad usually cooks dinner.",
+    "tense": "simple-present",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Emma never drinks tea.",
+    "tense": "simple-present",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Does your dog sleep on the sofa?",
+    "tense": "simple-present",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "My brother hardly ever forgets his keys.",
+    "tense": "simple-present",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The school bus leaves at seven thirty.",
+    "tense": "simple-present",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Neither of my friends likes broccoli.",
+    "tense": "simple-present",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Water boils at one hundred degrees Celsius.",
+    "tense": "simple-present",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Our new coach rarely cancels training.",
+    "tense": "simple-present",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "How often does your cousin practise the guitar?",
+    "tense": "simple-present",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I am reading a comic right now.",
+    "tense": "present-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They are playing in the garden.",
+    "tense": "present-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She is drawing a cat.",
+    "tense": "present-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We are waiting for the next bus.",
+    "tense": "present-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Is Tom doing his homework now?",
+    "tense": "present-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "The baby is not sleeping at the moment.",
+    "tense": "present-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "My neighbours are renovating their flat this month.",
+    "tense": "present-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Why are you wearing such a thick jacket today?",
+    "tense": "present-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The students are preparing for a science fair.",
+    "tense": "present-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "This week, our class is working on a group project.",
+    "tense": "present-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "The weather is getting colder these days.",
+    "tense": "present-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Are the musicians rehearsing for the concert tonight?",
+    "tense": "present-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I have lost my pencil.",
+    "tense": "present-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She has finished her homework.",
+    "tense": "present-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We have seen that film.",
+    "tense": "present-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "My brother has just arrived.",
+    "tense": "present-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Have you ever tried sushi?",
+    "tense": "present-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "They have not cleaned their room yet.",
+    "tense": "present-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "She has already written three messages.",
+    "tense": "present-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "We have lived in this town for five years.",
+    "tense": "present-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Has your teacher checked the results yet?",
+    "tense": "present-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "My parents have known each other since school.",
+    "tense": "present-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "The team has not won a match so far this season.",
+    "tense": "present-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Have you ever forgotten an important appointment?",
+    "tense": "present-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I have been studying for an hour.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She has been running since noon.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They have been waiting all morning.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We have been painting the fence all day.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Has your brother been practising the drums?",
+    "tense": "present-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "The dog has been barking for ten minutes.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "How long have you been learning French?",
+    "tense": "present-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Our neighbours have been building a shed since April.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "She has not been feeling well recently.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The scientists have been observing the birds for months.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I have been thinking about that question all evening.",
+    "tense": "present-perfect-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Has the school been collecting donations since September?",
+    "tense": "present-perfect-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I walked to the park yesterday.",
+    "tense": "simple-past",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "He ate a sandwich at lunch.",
+    "tense": "simple-past",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We watched a film last night.",
+    "tense": "simple-past",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "Did you visit your grandma on Sunday?",
+    "tense": "simple-past",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "My friends played basketball last Friday.",
+    "tense": "simple-past",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "She did not find her phone yesterday.",
+    "tense": "simple-past",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "The concert started twenty minutes late.",
+    "tense": "simple-past",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Our teacher gave us a surprise quiz last week.",
+    "tense": "simple-past",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Why did the class leave so early yesterday?",
+    "tense": "simple-past",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The explorers discovered an ancient village in 1902.",
+    "tense": "simple-past",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Our neighbours moved into their new house last autumn.",
+    "tense": "simple-past",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Did the referee stop the match after the storm?",
+    "tense": "simple-past",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I was sleeping at ten last night.",
+    "tense": "past-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They were playing at six yesterday.",
+    "tense": "past-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She was reading at eight.",
+    "tense": "past-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "Were you watching TV at nine?",
+    "tense": "past-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "We were not listening at that moment.",
+    "tense": "past-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "The sun was shining when I woke up.",
+    "tense": "past-progressive",
+    "difficulty": "medium",
+    "focus": "was shining"
+  },
+  {
+    "sentence": "While the audience was waiting, the lights went out.",
+    "tense": "past-progressive",
+    "difficulty": "hard",
+    "focus": "was waiting"
+  },
+  {
+    "sentence": "At midnight, the wind was blowing strongly.",
+    "tense": "past-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Was your sister studying when you called?",
+    "tense": "past-progressive",
+    "difficulty": "hard",
+    "focus": "Was your sister studying"
+  },
+  {
+    "sentence": "While the rain was falling, the streets slowly flooded.",
+    "tense": "past-progressive",
+    "difficulty": "difficult",
+    "focus": "was falling"
+  },
+  {
+    "sentence": "The players were warming up when the match was cancelled.",
+    "tense": "past-progressive",
+    "difficulty": "difficult",
+    "focus": "were warming up"
+  },
+  {
+    "sentence": "At exactly 7:45, the engineers were testing the bridge.",
+    "tense": "past-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I had eaten before six.",
+    "tense": "past-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She had already left by noon.",
+    "tense": "past-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They had finished before lunch.",
+    "tense": "past-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "By eight, we had packed our bags.",
+    "tense": "past-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "He had not read the message by then.",
+    "tense": "past-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Had you already seen the film by Monday?",
+    "tense": "past-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Before the concert began, the band had checked its instruments.",
+    "tense": "past-perfect",
+    "difficulty": "hard",
+    "focus": "had checked"
+  },
+  {
+    "sentence": "She had forgotten the password before the exam.",
+    "tense": "past-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "By the time the shop closed, I had bought everything.",
+    "tense": "past-perfect",
+    "difficulty": "hard",
+    "focus": "had bought"
+  },
+  {
+    "sentence": "The rescue team had reached the mountain before sunrise.",
+    "tense": "past-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "By the end of the lesson, the class had solved every puzzle.",
+    "tense": "past-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Had the museum already closed by the time you arrived?",
+    "tense": "past-perfect",
+    "difficulty": "difficult",
+    "focus": "Had the museum already closed"
+  },
+  {
+    "sentence": "I had been waiting for an hour by then.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She had been reading all morning.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We had been walking for hours.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "He had been studying for three hours before dinner.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "The dog had been barking before the storm.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Had they been practising all day before the show?",
+    "tense": "past-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "By the time the bus came, I had been standing there for ages.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "hard",
+    "focus": "had been standing"
+  },
+  {
+    "sentence": "They had been repairing the road for weeks before the opening.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "She had not been sleeping well before the trip.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The researchers had been recording sounds for years before the discovery.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Before the coach arrived, the athletes had been stretching for half an hour.",
+    "tense": "past-perfect-progressive",
+    "difficulty": "difficult",
+    "focus": "had been stretching"
+  },
+  {
+    "sentence": "Had the orchestra been rehearsing long before the conductor appeared?",
+    "tense": "past-perfect-progressive",
+    "difficulty": "difficult",
+    "focus": "Had the orchestra been rehearsing"
+  },
+  {
+    "sentence": "I will help you.",
+    "tense": "will-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "It will probably rain tomorrow.",
+    "tense": "will-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She will call you later.",
+    "tense": "will-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "I think our team will win.",
+    "tense": "will-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Will you open the window, please?",
+    "tense": "will-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "He will not forget your birthday.",
+    "tense": "will-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Maybe the train will arrive late.",
+    "tense": "will-future",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "I promise I will keep your secret.",
+    "tense": "will-future",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Do not worry, everything will be fine.",
+    "tense": "will-future",
+    "difficulty": "hard",
+    "focus": "will be fine"
+  },
+  {
+    "sentence": "Perhaps humans will discover life on another planet.",
+    "tense": "will-future",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I am sure the new invention will change our lives.",
+    "tense": "will-future",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I will carry that heavy box for you.",
+    "tense": "will-future",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I am going to study tonight.",
+    "tense": "going-to-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They are going to play football.",
+    "tense": "going-to-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She is going to bake a cake.",
+    "tense": "going-to-future",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We are going to visit Hamburg next month.",
+    "tense": "going-to-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Look at those clouds! It is going to rain.",
+    "tense": "going-to-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Are you going to buy a new bike?",
+    "tense": "going-to-future",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Our class is going to organise a charity event.",
+    "tense": "going-to-future",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Careful! That glass is going to fall.",
+    "tense": "going-to-future",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "My sister is not going to join the school band.",
+    "tense": "going-to-future",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The sky is turning dark; a storm is going to start.",
+    "tense": "going-to-future",
+    "difficulty": "difficult",
+    "focus": "is going to start"
+  },
+  {
+    "sentence": "My parents are going to renovate our kitchen in July.",
+    "tense": "going-to-future",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Those bags look heavy; the handle is going to break.",
+    "tense": "going-to-future",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I will be sleeping at eleven.",
+    "tense": "future-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She will be studying tonight.",
+    "tense": "future-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "They will be playing at six tomorrow.",
+    "tense": "future-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "This time tomorrow, we will be travelling.",
+    "tense": "future-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Will you be working at eight tomorrow?",
+    "tense": "future-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "He will not be watching the match then.",
+    "tense": "future-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "At noon tomorrow, the band will be rehearsing.",
+    "tense": "future-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The team will be training when the guests arrive.",
+    "tense": "future-progressive",
+    "difficulty": "hard",
+    "focus": "will be training"
+  },
+  {
+    "sentence": "This time next week, I will be relaxing on the beach.",
+    "tense": "future-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "At exactly 9:30 tomorrow, the astronauts will be docking with the station.",
+    "tense": "future-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Will the volunteers still be cleaning the beach at sunset?",
+    "tense": "future-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Next Thursday afternoon, our class will be presenting its projects.",
+    "tense": "future-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "I will have finished by Friday.",
+    "tense": "future-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "She will have left by noon.",
+    "tense": "future-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "We will have arrived by six.",
+    "tense": "future-perfect",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "By next week, I will have read the book.",
+    "tense": "future-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "They will not have finished by Tuesday.",
+    "tense": "future-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Will you have packed your bag by seven?",
+    "tense": "future-perfect",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "By the end of the year, our team will have played twenty matches.",
+    "tense": "future-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "The builders will have completed the roof by winter.",
+    "tense": "future-perfect",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "Will the train have departed by the time we reach the station?",
+    "tense": "future-perfect",
+    "difficulty": "hard",
+    "focus": "Will the train have departed"
+  },
+  {
+    "sentence": "By 2035, scientists will have developed better batteries.",
+    "tense": "future-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "At the end of this month, she will have saved enough money.",
+    "tense": "future-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "Will the researchers have published their results before the conference?",
+    "tense": "future-perfect",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "By noon, I will have been reading for an hour.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "By May, she will have been training for a year.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "By six, we will have been travelling for hours.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "easy"
+  },
+  {
+    "sentence": "By next month, he will have been working here for a year.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "By lunch, the dog will have been sleeping for three hours.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "Will you have been waiting for an hour by then?",
+    "tense": "future-perfect-progressive",
+    "difficulty": "medium"
+  },
+  {
+    "sentence": "By Friday, the team will have been preparing for six weeks.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "By the time the show starts, we will have been rehearsing for months.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "hard",
+    "focus": "will have been rehearsing"
+  },
+  {
+    "sentence": "By December, she will not have been living here for a full year.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "hard"
+  },
+  {
+    "sentence": "By the end of this century, the city will have been expanding for decades.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "difficult"
+  },
+  {
+    "sentence": "When the test ends, the students will have been writing for ninety minutes.",
+    "tense": "future-perfect-progressive",
+    "difficulty": "difficult",
+    "focus": "will have been writing"
+  },
+  {
+    "sentence": "By next September, will the project have been running for five years?",
+    "tense": "future-perfect-progressive",
+    "difficulty": "difficult"
+  }
+]

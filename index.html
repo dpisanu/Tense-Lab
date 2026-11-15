@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f0">
+  <meta name="description" content="English Tense Lab – englische Zeitformen verstehen und mit Satzkarten üben. Ohne Anmeldung, ohne Tracking.">
+  <title>Tense Lab — English, but make sense.</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="Tense Lab – Startseite">
+        <span class="brandmark" aria-hidden="true"><span>T</span><span>↗</span></span>
+        <span>TENSE<span class="brand-outline">LAB</span><span class="brand-dot">.</span></span>
+      </a>
+      <nav class="tabs" aria-label="Hauptnavigation">
+        <button class="tab is-active" type="button" data-tab="overview" aria-current="page">01 <span>Überblick</span></button>
+        <button class="tab" type="button" data-tab="practice">02 <span>Test me</span></button>
+      </nav>
+      <div class="topbar-side"><span class="status-dot"></span> ENGLISCH <span class="topbar-grade">/ KLASSE 7</span></div>
+    </header>
+
+    <main id="main">
+      <section class="page is-active" id="page-overview" aria-labelledby="overview-title">
+        <div class="hero hero-overview">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-index">01 / LEARN</span><span class="eyebrow-line"></span> ENGLISH GRAMMAR</div>
+            <h1 id="overview-title">English tenses.<br><span class="heading-outline">Finally clear.</span></h1>
+            <p class="hero-intro">Englische Zeitformen, auf Deutsch erklärt. Jede Karte zeigt dir <strong>wer</strong> etwas macht, <strong>wie</strong> das Verb aussieht und <strong>wann</strong> es passiert.</p>
+            <div class="hero-actions"><button class="btn btn-dark" type="button" data-tab="practice">Jetzt üben <span aria-hidden="true">↗</span></button><span class="caption-micro">7 Zeitformen für deinen aktuellen Stoff</span></div>
+          </div>
+          <div class="hero-graphic" aria-hidden="true">
+            <span class="graphic-label top">TENSE / FORM / TIME</span>
+            <div class="graphic-big">V<span class="graphic-sup">+ ing</span></div>
+            <div class="graphic-foot"><span>NOW</span><span class="graphic-arrow">→</span><span>THEN</span><span class="graphic-arrow">→</span><span>NEXT</span></div>
+            <span class="graphic-label bottom">GRAMMAR, SORTED.</span>
+          </div>
+        </div>
+
+        <div class="section-head matrix-head">
+          <div><p class="section-kicker">DEIN SPICKZETTEL</p><h2>Die Zeitformen im Überblick<span class="period">.</span></h2><p class="section-description">Reihen = Zeitpunkt. Spalten = Art der Handlung. Tippe eine Karte für Regeln und Beispiele.</p></div>
+          <div class="section-index">01 — 03</div>
+        </div>
+        <div class="filter-panel" aria-label="Ansicht einstellen">
+          <div class="filter-label"><span class="filter-icon">⌗</span> ANSICHT</div>
+          <label class="switch-wrap"><input type="checkbox" id="schoolOnly" checked><span class="switch-visual"></span><span>Nur aktueller Schulstoff</span></label>
+          <div class="filter-divider" aria-hidden="true"></div>
+          <fieldset class="column-filters" id="columnFilters"><legend>Spalten anzeigen</legend></fieldset>
+        </div>
+        <div class="matrix-scroller" tabindex="0" aria-label="Tense-Matrix, bei schmalem Bildschirm horizontal scrollbar">
+          <div id="tenseMatrix" class="tense-matrix"><div class="loading">Lade Zeitformen…</div></div>
+        </div>
+        <div class="insight-strip"><span class="insight-asterisk">✳</span><div><strong>Merke:</strong> Die englische Zeitform lässt sich nicht immer direkt aus einem deutschen Satz übersetzen. Schau auf die <strong>Verbform</strong> und den <strong>Zusammenhang</strong>.</div><span class="insight-tag">TIP 01</span></div>
+      </section>
+
+      <section class="page" id="page-practice" aria-labelledby="practice-title" hidden>
+        <div class="practice-header">
+          <div><div class="eyebrow"><span class="eyebrow-index">02 / PLAY</span><span class="eyebrow-line"></span> PRACTICE MODE</div><h1 id="practice-title">Test <span class="heading-outline">yourself.</span></h1><p class="hero-intro">Lies den Satz. Finde die richtige Zeitform. Zieh die Karte ins Feld – oder tippe einfach auf das Feld.</p></div>
+          <span class="practice-deco" aria-hidden="true">↗</span>
+        </div>
+        <div class="settings-card">
+          <div class="settings-title-line"><h2>Stell dir dein Set zusammen</h2><span class="settings-tag">YOUR GAME / YOUR RULES</span></div>
+          <div class="settings-top"><div class="setting-label">01 <strong>Zeitformen</strong></div><div class="settings-select-all"><button class="link-button" type="button" id="selectSchool">Schulstoff</button><span class="dotsep">·</span><button class="link-button" type="button" id="selectAll">Alle</button><span class="dotsep">·</span><button class="link-button" type="button" id="selectNone">Keine</button></div></div>
+          <div id="tenseChoices" class="tense-choices" aria-label="Zeitformen auswählen"></div>
+          <div class="settings-bottom"><div class="difficulty-control"><div class="setting-label">02 <strong>Schwierigkeit</strong></div><div class="difficulty-options" role="radiogroup" aria-label="Schwierigkeit wählen">
+            <label><input type="radio" name="difficulty" value="easy" checked><span>Easy <small>Leicht</small></span></label>
+            <label><input type="radio" name="difficulty" value="medium"><span>Medium <small>Mittel</small></span></label>
+            <label><input type="radio" name="difficulty" value="hard"><span>Hard <small>Schwer</small></span></label>
+            <label><input type="radio" name="difficulty" value="difficult"><span>Difficult <small>Profi</small></span></label>
+          </div><p class="tiny-note">Jede Stufe enthält eigene Sätze. Je Zeitform maximal 3 Karten pro Set.</p></div><button class="btn btn-accent" id="startGame" type="button">Neues Set starten <span aria-hidden="true">↗</span></button></div>
+          <p class="settings-error" id="settingsError" role="alert" hidden>Wähle mindestens eine Zeitform aus.</p>
+        </div>
+        <div class="game-board" id="gameBoard">
+          <div class="game-board-head"><div><p class="section-kicker">DEIN KARTENSTAPEL</p><h2>Where does it belong<span class="period">?</span></h2></div><div class="game-progress"><span id="progressLabel">0 / 0 Karten</span><div class="progress-track"><div id="progressBar" class="progress-fill"></div></div></div></div>
+          <div class="deck-area"><div class="deck-side-note"><span class="step-circle">1</span><span>LESEN</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">Karten werden gemischt…</div></div><div class="deck-side-note drop-hint"><span class="step-circle">2</span><span>ZUORDNEN</span></div></div>
+          <div class="drop-head"><span>DROP ZONES</span><span>TIPPE ODER ZIEHE EINE KARTE INS RICHTIGE FELD ↓</span></div>
+          <div id="dropZones" class="drop-zones"></div>
+          <div id="finished" class="finished" hidden></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="footer-brand">TENSE<span>LAB</span><b>.</b></div><p>Made for curious minds. Deutsch erklärt, Englisch geübt.</p><span><span class="status-dot"></span> KEIN ACCOUNT · KEIN TRACKING · KEIN SPEICHERN</span></footer>
+  </div>
+
+  <dialog id="tenseDialog" class="modal" aria-labelledby="tenseDialogTitle"><div id="tenseDialogContent"></div></dialog>
+  <dialog id="reportDialog" class="modal report-modal" aria-labelledby="reportDialogTitle"><div id="reportDialogContent"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

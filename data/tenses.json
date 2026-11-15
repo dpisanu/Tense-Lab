@@ -1,0 +1,491 @@
+[
+  {
+    "id": "simple-present",
+    "name": "Simple Present",
+    "de": "Einfache Gegenwart",
+    "era": "present",
+    "track": "simple",
+    "school": true,
+    "formula": "verb / he, she, it: verb + s",
+    "when": "Gewohnheiten, Fakten und regelmäßige Abläufe.",
+    "short": "Was passiert normalerweise?",
+    "signal": "always · usually · often · every day",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I / you / we / they → Grundform; he / she / it → +s"
+      },
+      {
+        "label": "VERB",
+        "value": "play / plays"
+      }
+    ],
+    "conjugation": [
+      "I play.",
+      "She plays.",
+      "I do not play. / She does not play.",
+      "Do you play? / Does she play?",
+      "Besonderheit be: I am / he is / we are; Is she happy?"
+    ],
+    "examples": {
+      "positive": "She walks to school every day.",
+      "negative": "He does not like coffee.",
+      "question": "Does your brother play tennis?"
+    },
+    "tip": "Bei he, she, it bekommt das Verb meist ein -s. In Fragen und Verneinungen übernimmt does das -s: Does she play? Ausnahme: be benutzt am/is/are und bildet Fragen ohne do/does (Is he happy?).",
+    "recognition": "Grundform bzw. -s nach he/she/it; bei Fragen und Verneinungen do/does."
+  },
+  {
+    "id": "present-progressive",
+    "name": "Present Progressive",
+    "de": "Verlaufsform der Gegenwart",
+    "era": "present",
+    "track": "continuous",
+    "school": true,
+    "formula": "am / is / are + verb-ing",
+    "when": "Gerade jetzt oder für eine begrenzte Zeit.",
+    "short": "Was passiert gerade?",
+    "signal": "now · right now · at the moment",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I → am; he / she / it → is; you / we / they → are"
+      },
+      {
+        "label": "HILFSVERB",
+        "value": "am / is / are"
+      },
+      {
+        "label": "VERB",
+        "value": "play + ing → playing"
+      }
+    ],
+    "conjugation": [
+      "I am reading.",
+      "She is not reading.",
+      "Are they reading?"
+    ],
+    "examples": {
+      "positive": "I am doing my homework right now.",
+      "negative": "She is not listening at the moment.",
+      "question": "Are you waiting for the bus?"
+    },
+    "tip": "Nicht nur -ing! Das passende am/is/are muss immer davorstehen.",
+    "recognition": "am/is/are + Verb mit -ing."
+  },
+  {
+    "id": "present-perfect",
+    "name": "Present Perfect",
+    "de": "Vergangenheit mit Bezug zu jetzt",
+    "era": "present",
+    "track": "perfect",
+    "school": true,
+    "formula": "have / has + 3rd form",
+    "when": "Etwas hat Folgen bis jetzt, ist Erfahrung oder dauert noch an.",
+    "short": "Was hat bisher stattgefunden?",
+    "signal": "just · already · yet · ever · never · since · for",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I / you / we / they → have; he / she / it → has"
+      },
+      {
+        "label": "HILFSVERB",
+        "value": "have / has"
+      },
+      {
+        "label": "VERB",
+        "value": "3. Form: played / eaten / gone"
+      }
+    ],
+    "conjugation": [
+      "I have finished my homework.",
+      "She has not seen the film.",
+      "Have you ever been to London?"
+    ],
+    "examples": {
+      "positive": "I have just lost my keys.",
+      "negative": "She has not finished yet.",
+      "question": "Have you ever visited Scotland?"
+    },
+    "tip": "Bei einer abgeschlossenen Zeitangabe wie yesterday nutzt du normalerweise Simple Past, nicht Present Perfect.",
+    "recognition": "have/has + 3. Verbform; wichtig ist der Bezug zu jetzt."
+  },
+  {
+    "id": "present-perfect-progressive",
+    "name": "Present Perfect Progressive",
+    "de": "Verlaufsform bis jetzt",
+    "era": "present",
+    "track": "perfect-continuous",
+    "school": false,
+    "formula": "have / has + been + verb-ing",
+    "when": "Eine Handlung begann früher und dauert noch an oder hat gerade aufgehört.",
+    "short": "Wie lange schon?",
+    "signal": "for · since · all morning · lately",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I / you / we / they → have; he / she / it → has"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "have / has + been"
+      },
+      {
+        "label": "VERB",
+        "value": "playing (-ing)"
+      }
+    ],
+    "conjugation": [
+      "I have been studying for two hours.",
+      "He has not been sleeping well.",
+      "Have you been waiting long?"
+    ],
+    "examples": {
+      "positive": "I have been learning English since September.",
+      "negative": "She has not been feeling well lately.",
+      "question": "Have they been playing all afternoon?"
+    },
+    "tip": "for = Dauer (for two hours), since = Startpunkt (since Monday).",
+    "recognition": "have/has been + -ing, oft mit for oder since."
+  },
+  {
+    "id": "simple-past",
+    "name": "Simple Past",
+    "de": "Einfache Vergangenheit",
+    "era": "past",
+    "track": "simple",
+    "school": true,
+    "formula": "2nd form / verb + ed",
+    "when": "Etwas war zu einem vergangenen Zeitpunkt abgeschlossen.",
+    "short": "Was geschah damals?",
+    "signal": "yesterday · last week · two days ago · in 2020",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen: gleiche Vergangenheitsform"
+      },
+      {
+        "label": "VERB",
+        "value": "regelmäßig: -ed; unregelmäßig: 2. Form"
+      }
+    ],
+    "conjugation": [
+      "I watched a film. / She went home.",
+      "I did not watch it.",
+      "Did you watch it?",
+      "Besonderheit be: I / he / she was; you / we / they were."
+    ],
+    "examples": {
+      "positive": "We visited our grandparents yesterday.",
+      "negative": "Tom did not go to school last Friday.",
+      "question": "Did you see the match last night?"
+    },
+    "tip": "Nach did und didn’t steht immer die Grundform: Did she go? (nicht went). Bei be heißt es was/were: Were you ill? (ohne did).",
+    "recognition": "2. Form oder -ed; bei Fragen/Verneinungen did + Grundform."
+  },
+  {
+    "id": "past-progressive",
+    "name": "Past Progressive",
+    "de": "Verlaufsform der Vergangenheit",
+    "era": "past",
+    "track": "continuous",
+    "school": true,
+    "formula": "was / were + verb-ing",
+    "when": "Etwas war zu einem bestimmten Zeitpunkt in der Vergangenheit gerade im Gange; Hintergrund einer Geschichte.",
+    "short": "Was war gerade dabei zu passieren?",
+    "signal": "at 8 pm yesterday · while · when",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I / he / she / it → was; you / we / they → were"
+      },
+      {
+        "label": "HILFSVERB",
+        "value": "was / were"
+      },
+      {
+        "label": "VERB",
+        "value": "playing (-ing)"
+      }
+    ],
+    "conjugation": [
+      "I was reading at eight.",
+      "They were not sleeping.",
+      "Were you listening?"
+    ],
+    "examples": {
+      "positive": "At 8 pm, I was doing my homework.",
+      "negative": "We were not watching TV at that time.",
+      "question": "Was she sleeping when you called?"
+    },
+    "tip": "while ist ein Hinweis, aber kein Automatismus. Entscheidend ist: War die Handlung gerade im Verlauf?",
+    "recognition": "was/were + -ing; eine andauernde Handlung in der Vergangenheit."
+  },
+  {
+    "id": "past-perfect",
+    "name": "Past Perfect",
+    "de": "Vorvergangenheit",
+    "era": "past",
+    "track": "perfect",
+    "school": false,
+    "formula": "had + 3rd form",
+    "when": "Etwas geschah vor einem anderen Zeitpunkt in der Vergangenheit.",
+    "short": "Was war schon vorher passiert?",
+    "signal": "before · already · by the time · after",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → had"
+      },
+      {
+        "label": "HILFSVERB",
+        "value": "had"
+      },
+      {
+        "label": "VERB",
+        "value": "3. Form: eaten / finished / gone"
+      }
+    ],
+    "conjugation": [
+      "She had left before noon.",
+      "I had not finished.",
+      "Had they arrived?"
+    ],
+    "examples": {
+      "positive": "The train had already left before noon.",
+      "negative": "He had not eaten breakfast by then.",
+      "question": "Had you finished before the deadline?"
+    },
+    "tip": "Past Perfect zeigt die frühere von zwei vergangenen Handlungen.",
+    "recognition": "had + 3. Verbform, zeitlich vor einem anderen Vergangenheitsereignis."
+  },
+  {
+    "id": "past-perfect-progressive",
+    "name": "Past Perfect Progressive",
+    "de": "Verlaufsform der Vorvergangenheit",
+    "era": "past",
+    "track": "perfect-continuous",
+    "school": false,
+    "formula": "had + been + verb-ing",
+    "when": "Eine Handlung dauerte schon länger an, bevor etwas Vergangenes geschah.",
+    "short": "Wie lange hatte es vorher gedauert?",
+    "signal": "for · since · before · all day",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → had"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "had + been"
+      },
+      {
+        "label": "VERB",
+        "value": "playing (-ing)"
+      }
+    ],
+    "conjugation": [
+      "We had been waiting for an hour.",
+      "She had not been sleeping.",
+      "Had he been working all day?"
+    ],
+    "examples": {
+      "positive": "I had been studying for three hours before dinner.",
+      "negative": "They had not been waiting long by then.",
+      "question": "Had she been running before the race stopped?"
+    },
+    "tip": "Diese Zeitform verbindet Dauer und einen früheren Zeitpunkt in der Vergangenheit.",
+    "recognition": "had been + -ing; Dauer vor einem vergangenen Zeitpunkt."
+  },
+  {
+    "id": "will-future",
+    "name": "Will-Future",
+    "de": "Zukunft: will",
+    "era": "future",
+    "track": "simple",
+    "school": true,
+    "formula": "will + base verb",
+    "when": "Spontane Entscheidungen, Vermutungen und Versprechen.",
+    "short": "Was wird vermutlich passieren?",
+    "signal": "I think · probably · maybe · I promise",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → will"
+      },
+      {
+        "label": "HILFSVERB",
+        "value": "will / won’t"
+      },
+      {
+        "label": "VERB",
+        "value": "Grundform: go / play / be"
+      }
+    ],
+    "conjugation": [
+      "I will help you.",
+      "She will not forget.",
+      "Will you join us?"
+    ],
+    "examples": {
+      "positive": "I think it will rain tomorrow.",
+      "negative": "I will not tell anyone your secret.",
+      "question": "Will robots help in our homes one day?"
+    },
+    "tip": "Nach will kommt immer die Grundform, auch bei he/she/it: she will go, nicht goes.",
+    "recognition": "will / won’t + Grundform; oft Prognose oder spontaner Entschluss."
+  },
+  {
+    "id": "going-to-future",
+    "name": "Going-to-Future",
+    "de": "Zukunft: going to",
+    "era": "future",
+    "track": "simple",
+    "school": true,
+    "formula": "am / is / are + going to + base verb",
+    "when": "Feste Pläne und Vorhersagen mit sichtbaren Anzeichen.",
+    "short": "Was ist geplant oder schon abzusehen?",
+    "signal": "tonight · tomorrow · next week · look!",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "I → am; he / she / it → is; you / we / they → are"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "am/is/are + going to"
+      },
+      {
+        "label": "VERB",
+        "value": "Grundform: visit / be / go"
+      }
+    ],
+    "conjugation": [
+      "We are going to travel.",
+      "She is not going to leave.",
+      "Are you going to study?"
+    ],
+    "examples": {
+      "positive": "We are going to visit Berlin next weekend.",
+      "negative": "He is not going to buy those shoes.",
+      "question": "Are you going to watch the match tonight?"
+    },
+    "tip": "going to und will sind nicht austauschbar: Pläne und sichtbare Hinweise sprechen oft für going to.",
+    "recognition": "am/is/are going to + Grundform; Plan oder Hinweis."
+  },
+  {
+    "id": "future-progressive",
+    "name": "Future Progressive",
+    "de": "Verlaufsform der Zukunft",
+    "era": "future",
+    "track": "continuous",
+    "school": false,
+    "formula": "will + be + verb-ing",
+    "when": "Zu einem Zeitpunkt in der Zukunft wird etwas gerade im Gange sein.",
+    "short": "Was wird dann gerade passieren?",
+    "signal": "this time tomorrow · at 8 tomorrow",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → will"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "will + be"
+      },
+      {
+        "label": "VERB",
+        "value": "playing (-ing)"
+      }
+    ],
+    "conjugation": [
+      "I will be travelling at noon.",
+      "She will not be working then.",
+      "Will you be studying tonight?"
+    ],
+    "examples": {
+      "positive": "This time tomorrow, I will be flying home.",
+      "negative": "He will not be sleeping at midnight.",
+      "question": "Will they be playing at six tomorrow?"
+    },
+    "tip": "Nicht verwechseln mit going to: Bei will be + -ing steht die Handlung im Verlauf.",
+    "recognition": "will be + -ing, zu einem künftigen Zeitpunkt."
+  },
+  {
+    "id": "future-perfect",
+    "name": "Future Perfect",
+    "de": "Abgeschlossene Zukunft",
+    "era": "future",
+    "track": "perfect",
+    "school": false,
+    "formula": "will + have + 3rd form",
+    "when": "Etwas wird bis zu einem zukünftigen Zeitpunkt fertig sein.",
+    "short": "Was wird bis dahin geschafft sein?",
+    "signal": "by Friday · by then · by 2030",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → will"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "will + have"
+      },
+      {
+        "label": "VERB",
+        "value": "3. Form: finished / gone / eaten"
+      }
+    ],
+    "conjugation": [
+      "I will have finished by Friday.",
+      "He will not have left yet.",
+      "Will you have arrived by six?"
+    ],
+    "examples": {
+      "positive": "By Friday, she will have finished the project.",
+      "negative": "We will not have reached the city by noon.",
+      "question": "Will they have cleaned up by eight?"
+    },
+    "tip": "by bedeutet hier spätestens bis zu einem bestimmten Zeitpunkt.",
+    "recognition": "will have + 3. Form; bis dahin abgeschlossen."
+  },
+  {
+    "id": "future-perfect-progressive",
+    "name": "Future Perfect Progressive",
+    "de": "Dauer bis in die Zukunft",
+    "era": "future",
+    "track": "perfect-continuous",
+    "school": false,
+    "formula": "will + have + been + verb-ing",
+    "when": "Bis zu einem zukünftigen Zeitpunkt wird eine Handlung schon eine gewisse Zeit andauern.",
+    "short": "Wie lange wird es dann schon laufen?",
+    "signal": "by next year · for five hours · by then",
+    "parts": [
+      {
+        "label": "WER",
+        "value": "Alle Personen → will"
+      },
+      {
+        "label": "HILFSVERBEN",
+        "value": "will + have + been"
+      },
+      {
+        "label": "VERB",
+        "value": "playing (-ing)"
+      }
+    ],
+    "conjugation": [
+      "By June, I will have been studying for a year.",
+      "He will not have been working for long.",
+      "Will you have been waiting for an hour?"
+    ],
+    "examples": {
+      "positive": "By noon, I will have been reading for three hours.",
+      "negative": "By May, she will not have been living here for a full year.",
+      "question": "By Friday, will they have been training for six weeks?"
+    },
+    "tip": "Diese Form ist fortgeschritten und im Schulstoff der 7. Klasse meist noch nicht nötig.",
+    "recognition": "will have been + -ing; Dauer bis zu einem zukünftigen Zeitpunkt."
+  }
+]
