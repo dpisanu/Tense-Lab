@@ -86,14 +86,15 @@ tense-lab/
 │   └── style.css             # Responsives Design
 ├── data/
 │   ├── cards.json            # Alle Übungssätze — hier leicht ergänzen
-│   └── tenses.json           # Regeln, Beispiele, Formeln und Erklärungen
+│   ├── tenses.json           # Regeln, Beispiele, Formeln und Erklärungen
+│   └── LICENSE               # Lizenzregelung für die Bildungsinhalte
 ├── scripts/
 │   └── validate_cards.py     # Content-Prüfung vor dem Deployment
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml        # GitHub Pages Deployment-Pipeline
 ├── README.md
-└── LICENSE
+└── LICENSE                   # Lizenzregelung für die WebApp
 ```
 
 ## Häufige Probleme
@@ -122,4 +123,6 @@ Die App zeigt Zeitform **und** Anwendung: nicht „immer bei *while* Past Progre
 
 # Lizenz und Urheberrecht
 
-Siehe [LICENSE](./LICENSE)
+Die Anwendungssoftware unterliegt dem Urheberrecht (Alle Rechte vorbehalten). Siehe [LICENSE](./LICENSE)
+
+Die Bildungsinhalte im Verzeichnis „data/“ stehen unter der Lizenz [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) zur Verfügung. 
